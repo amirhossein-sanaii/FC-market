@@ -1,0 +1,22 @@
+.divparent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color:antiquewhite;
+    width: 28%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.imageproducts{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+  }
